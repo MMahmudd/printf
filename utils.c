@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * is_printable - Evaluates if a char is printable
  * @c: Char to be evaluated.
@@ -13,7 +12,6 @@ int is_printable(char c)
 
 	return (0);
 }
-
 /**
  * append_hexa_code - Append ascci in hexadecimal code to buffer
  * @buffer: Array of chars.
@@ -50,7 +48,6 @@ int is_digit(char c)
 
 	return (0);
 }
-
 /**
  * convert_size_number - Casts a number to the specified size
  * @num: Number to be casted.
